@@ -9,4 +9,4 @@ class Solution:
             mapOfStr[s[i]] = mapOfStr.get(s[i], 0) + 1
             mapOfStr[t[i]] = mapOfStr.get(t[i], 0) - 1
 
-        return all(value == 0 for value in mapOfStr.values())
+        return all(v == 0 for v in mapOfStr.values())
