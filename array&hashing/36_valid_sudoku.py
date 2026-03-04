@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 class Solution:
     def isValidSudokuBF(self, board: list[list[str]]) -> bool:
         for row in range(9):

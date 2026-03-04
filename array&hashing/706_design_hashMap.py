@@ -19,7 +19,6 @@ class MyHashMap:
             curr = curr.next
         curr.next = Node([key, value])
 
-
     def get(self, key: int) -> int:
         k = key % len(self.set)
 
