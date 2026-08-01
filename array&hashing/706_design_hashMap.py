@@ -1,3 +1,12 @@
+"""
+LeetCode #706: Design HashMap
+
+Design a HashMap without using any built-in hash table libraries. Implement the MyHashMap class: MyHashMap() initializes the object, void put(int key, int value) inserts a (key, value) pair, int get(int key) returns the value to which the specified key is mapped, or -1 if no mapping exists, void remove(key) removes the key and its corresponding value.
+
+Constraints:
+0 <= key, value <= 10^6
+At most 10^4 calls will be made to put, get, and remove.
+"""
 class Node:
     def __init__(self, data, next=None):
         self.data = data

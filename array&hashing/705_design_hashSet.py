@@ -1,3 +1,12 @@
+"""
+LeetCode #705: Design HashSet
+
+Design a HashSet without using any built-in hash table libraries. Implement the MyHashSet class: MyHashSet() initializes the object, void add(key) inserts the value key into the HashSet, void remove(key) removes the value key from the HashSet, bool contains(key) returns whether the value key exists in the HashSet.
+
+Constraints:
+0 <= key <= 10^6
+At most 10^4 calls will be made to add, remove, and contains.
+"""
 class Node:
     def __init__(self, data = 0, next = None):
         self.data = data

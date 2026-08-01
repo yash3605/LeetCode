@@ -1,3 +1,13 @@
+"""
+LeetCode #271: Encode and Decode Strings
+
+Design an algorithm to encode a list of strings to a single string. The encoded string is then sent over the network and is decoded back to the original list of strings. Implement the encode and decode methods.
+
+Constraints:
+1 <= strs.length <= 200
+0 <= strs[i].length <= 200
+strs[i] consists of any possible characters out of 256 valid ASCII characters.
+"""
 class Solution:
 
     def encode(self, strs: list[str]) -> str:

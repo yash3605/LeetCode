@@ -1,3 +1,11 @@
+"""
+LeetCode #853: Car Fleet
+
+There are n cars going to the same destination along a one-lane road. The destination is target miles away. You are given two integer array position and speed, both of length n, where position[i] is the position of the ith car and speed[i] is the speed of the ith car (in miles per hour). A car fleet is some non-empty set of cars driving at the same position and same speed. Return the number of car fleets that will arrive at the destination.
+
+Constraints:
+n == position.length == speed.length, 1 <= n <= 10^5, 0 <= position[i] <= target, 1 <= speed[i] <= 10^6
+"""
 class Solution:
     def carFleet(self, target: int, position: list[int], speed: list[int]) -> int:
         pair = [(p, s) for p, s in zip(position, speed)]

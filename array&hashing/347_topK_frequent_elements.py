@@ -1,3 +1,12 @@
+"""
+LeetCode #347: Top K Frequent Elements
+
+Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+
+Constraints:
+1 <= nums.length <= 10^5
+1 <= k <= number of distinct elements
+"""
 class Solution:
     def topKFrequentHM(self, nums: list[int], k: int) -> list[int]:
         hm = {}

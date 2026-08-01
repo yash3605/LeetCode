@@ -1,3 +1,11 @@
+"""
+LeetCode #232: Implement Queue using Stacks
+
+Implement a first-in-first-out (FIFO) queue using only two stacks. Implement the MyQueue class: MyQueue() initializes the queue object, void push(int x) pushes element x to the back of the queue, int pop() removes the element from the front of the queue, int peek() returns the element at the front of the queue, boolean empty() returns true if the queue is empty.
+
+Constraints:
+1 <= x <= 9, At most 100 calls will be made to push, pop, peek, and empty.
+"""
 class MyQueue:
     def __init__(self):
         self.stack1 = []

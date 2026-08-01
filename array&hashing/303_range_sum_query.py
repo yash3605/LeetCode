@@ -1,3 +1,13 @@
+"""
+LeetCode #303: Range Sum Query - Immutable
+
+Design a data structure that handles multiple queries of the following type: Calculate the sum of the elements of nums between indices left and right inclusive where left <= right. Implement the NumArray class: NumArray(int[] nums) initializes the object with the integer array nums. int sumRange(int left, int right) returns the sum of the elements of nums between indices left and right inclusive.
+
+Constraints:
+1 <= nums.length <= 10^4
+-10^5 <= nums[i] <= 10^5
+0 <= left <= right < nums.length
+"""
 class NumArray:
 
     def __init__(self, nums: list[int]):

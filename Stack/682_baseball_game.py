@@ -1,3 +1,11 @@
+"""
+LeetCode #682: Baseball Game
+
+You are keeping the scores for a baseball game with strange rules. Given a list of strings operations, return the sum of the points on the record. The operations are: Integer x (record a new score of x), "+" (record a new score that is the sum of the previous two scores), "D" (record a new score that is the double of the previous score), "C" (invalidate the previous score, removing it from the record).
+
+Constraints:
+1 <= operations.length <= 1000, operations[i] is "C", "D", "+", or a string representing an integer in the range [-3 * 10^4, 3 * 10^4].
+"""
 class Solution:
     def calPoints(self, operations: list[str]) -> int:
         score = []

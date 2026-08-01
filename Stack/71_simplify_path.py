@@ -1,3 +1,11 @@
+"""
+LeetCode #71: Simplify Path
+
+Given a string path, which is an absolute path (starting with a slash '/') to a file or directory in a Unix-style file system, convert it to the simplified canonical path. A canonical path must always begin with a slash '/', any two directory names must be separated by a single slash '/', and the path must not end with a trailing '/'.
+
+Constraints:
+1 <= path.length <= 3000, path consists of English letters, digits, period '.', slash '/' or '_'.
+"""
 class Solution:
     def simplifyPath(self, path: str) -> str:
         stack = []

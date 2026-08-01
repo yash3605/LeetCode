@@ -1,3 +1,13 @@
+"""
+LeetCode #27: Remove Element
+
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of elements may be changed. Then return the number of elements in nums which are not equal to val.
+
+Constraints:
+0 <= nums.length <= 100
+0 <= nums[i] <= 50
+0 <= val <= 100
+"""
 class Solution:
     def removeElements(self, nums: list[int], val: int) -> int:
         i, j = 0, len(nums) - 1

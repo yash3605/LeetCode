@@ -1,3 +1,11 @@
+"""
+LeetCode #895: Maximum Frequency Stack
+
+Design a stack-like data structure to push elements to the stack and pop the most frequent element from the stack. Implement the FreqStack class: FreqStack() initializes the empty frequency stack, void push(int val) pushes an integer val onto the top of the stack, int pop() removes and returns the most frequent element in the stack. If there is a tie for the most frequent element, the element closest to the top is removed.
+
+Constraints:
+0 <= val <= 10^9, At most 2 * 10^4 calls will be made to push and pop.
+"""
 class FreqStack:
 
     def __init__(self):

@@ -1,3 +1,12 @@
+"""
+LeetCode #912: Sort an Array
+
+Given an array of integers nums, sort the array in ascending order and return it.
+
+Constraints:
+1 <= nums.length <= 5 * 10^4
+-5 * 10^4 <= nums[i] <= 5 * 10^4
+"""
 from collections import defaultdict
 
 class Solution:

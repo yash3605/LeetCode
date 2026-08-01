@@ -1,3 +1,11 @@
+"""
+LeetCode #125: Valid Palindrome
+
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Given a string s, return true if it is a palindrome, or false otherwise.
+
+Constraints:
+1 <= s.length <= 2 * 10^5, s consists only of printable ASCII characters.
+"""
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         new_str = "".join(filter(str.isalnum, s)).lower()

@@ -1,3 +1,11 @@
+"""
+LeetCode #189: Rotate Array
+
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+
+Constraints:
+1 <= nums.length <= 10^5, -2^31 <= nums[i] <= 2^31 - 1, 0 <= k <= 10^5
+"""
 class Solution:
     def rotate(self, nums: list[int], k: int) -> None:
         """

@@ -1,3 +1,11 @@
+"""
+LeetCode #394: Decode String
+
+Given an encoded string, return its decoded string. The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer.
+
+Constraints:
+1 <= s.length <= 30, s consists of lowercase English letters, digits, and square brackets '[]'. 1 <= k <= 100.
+"""
 class Solution:
     def decodeString(self, s: str) -> str:
         stack = []

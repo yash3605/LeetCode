@@ -1,3 +1,11 @@
+"""
+LeetCode #150: Evaluate Reverse Polish Notation
+
+Evaluate the value of an expression in Reverse Polish Notation. Valid operators are +, -, *, /. Each operand may be an integer or another expression. Note that division between two integers should truncate toward zero. There will not be any division by zero.
+
+Constraints:
+1 <= tokens.length <= 10^4, tokens[i] is either an operator: "+", "-", "*", "/" or an integer in the range [-200, 200].
+"""
 class Solution:
     def evalRPN(self, tokens: list[str]) -> int:
         stack = []

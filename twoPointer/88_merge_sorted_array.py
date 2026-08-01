@@ -1,3 +1,11 @@
+"""
+LeetCode #88: Merge Sorted Array
+
+You are given two integer arrays nums1 and nums2 sorted in non-decreasing order, and two integers m and n representing the number of elements in nums1 and nums2 respectively. Merge nums1 and nums2 into a single array sorted in non-decreasing order. The final sorted array should not be returned by the function, but instead be stored inside the array nums1.
+
+Constraints:
+nums1.length == m + n, 0 <= m, n <= 200, 1 <= m + n <= 200, -10^9 <= nums1[i], nums2[i] <= 10^9
+"""
 class Solution:
     def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> list[int]:
         i, j, k = m - 1, n - 1, m + n - 1
